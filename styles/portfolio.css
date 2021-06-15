@@ -22,8 +22,8 @@ p{
     line-height: 30px;
 }
 img{
-    width: 100%;
-    height: auto;
+    padding-top: 20%;
+    margin: 0 auto;
 }
 .hero{
     background-color: var(--secondary-color);
