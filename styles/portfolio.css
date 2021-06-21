@@ -203,8 +203,9 @@ footer{
         font-size: 12px;
     }
     .contact-box{
-        
         padding: 30px;
-        
-    
+    }
+    .email-link{
+        font-size: 20px;
+    }
 }
