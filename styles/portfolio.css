@@ -87,7 +87,7 @@ nav a{
 }
 .about-section img{
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: flex-end;
 }
@@ -135,6 +135,10 @@ nav a{
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
+.launch-project-button{
+    display: block;
+    margin-left: 30%;
 }
 .project{
     padding: 120px 20px;
@@ -207,5 +211,8 @@ footer{
     }
     .email-link{
         font-size: 20px;
+    }
+    .launch-project-button{
+        margin-left: 30px;
     }
 }
