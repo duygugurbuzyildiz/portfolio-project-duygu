@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> About Duygu - Front-end developer - Duygu Gurbuz Yildiz</title>
+    <meta name="description" content="Duygu is a front-end developer based in Spain. Duygu lives in Barcelona. Duygu can develop web pages in different languages such as Turkish, English and Spanish. You can find detailed information about Duygu.">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
@@ -14,6 +15,28 @@
     <link rel="stylesheet" href="styles/portfolio.css">
 </head>
 <body>
+    <div class="container">
+        <nav class="d-flex justify-content-between">
+            <a href="/" title="Homepage">
+                <img src="images/logo.png" alt="Duygu Gurbuz Yildiz Logo" class="logo pt-0 float-start d-none d-md-block">
+                <img src="images/small-logo.jpeg" alt="Duygu Gurbuz Yildiz Small Logo" class="logo pt-0 float-start d-block d-md-none">
+            </a>
+            <ul>
+                <li>
+                    <a href="/" title="Homepage">Home</a>
+                </li>
+                <li class="active">
+                    <a href="about.html" title="About Duygu">About</a>
+                </li>
+                <li>
+                    <a href="work.html" title="Duygu's work">Work</a>
+                </li>
+                <li>
+                    <a href="contact.html" title="Contact Duygu">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <div class="about-section container">
         <div class="row">
             <div class="col-lg-6">
@@ -27,13 +50,39 @@
                     <p class="mb-5">
                         For anyone who wants to start learning code, this workshop is very interesting. You will be challenged with different exercises, and everything is well explained, homework and deadlines are good for keep focus.
                     </p>
-                    <a href="#" class="btn btn-branding">See my projects</a>
+                    <a href="/work.html" class="btn btn-branding" title="The rojects of Duygu">See my projects</a>
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="images/mypicture.jpeg" alt="profile picture" class="rounded-top img-fluid ">
+                <img src="images/mypicture.JPG" alt="profile picture" class="rounded-top img-fluid ">
             </div>
         </div>
     </div>
+    <footer class="container">
+        <div class="contact-box mb-5 d-none d-md-flex">
+            <div>
+                <h4>
+                    Work Inquiry
+                </h4>
+                <p class="text-muted">
+                    Let's work together!
+                </p>
+            </div>
+            <div class="mt-4">
+                <a href="/contact.html" class="btn btn-branding" title="Contact with Duygu Gurbuz Yildiz">Contact me</a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+            <a href="mailto:gurbuz.duygu@gmail.com" class="email-link text-center mb-5" title="Send an email to Duygu">gurbuz.duygu@gmail.com</a>
+        </div>
+        <div class="social-links text-center mb-5">
+            <a href="http://www.instagram.com/gurbuz.duygu" target="_blank" title="Instagram profile of Duygu"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/duygugurbuzyildiz" target="_blank" title="Github profile of Duygu"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/duygu-gürbüz-yıldız-38176a99/" target="_blank" title="Linkedin profile of Duygu"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p class="text-center mt-5">
+            ✌🏼This project was coded by Duygu Gurbuz Yildiz and it is <a href="https://github.com/duygugurbuzyildiz/portfolio-project-duygu" target="_blank" title="Github link of Duygu's portfolio page">open-sourced.</a> 
+        </p>
+    </footer>
 </body>
 </html>
